@@ -1,0 +1,39 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+
+}
+
+.heading{
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: dotted;
+
+}
+.div-heading1{
+    text-transform: capitalize;
+    font-style: italic;
+    border: 3px double plum;
+    
+    
+}
+.div-phara1{
+    background-color: rgb(129, 226, 158);
+    color: antiquewhite;
+    font-style:robota;
+}
+.div-phara2{
+    background-color: rgb(82, 125, 190);
+    color: rgb(185, 242, 190);
+}
+.div-phara3{
+    background-color: rgb(137,317, 713);
+    color: rgb(052,205,502);
+}
+.div-phara4{
+    background-color: rgb(170, 701, 017);
+    color: rgb(300, 030, 003);
+}

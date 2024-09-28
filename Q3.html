@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="Q3.css" />
+  </head>
+  <body>
+    <div class="form">
+      <form action="" method="get" target="_blank" enctype="text/plain">
+        <div>
+          <label for="first">First Name</label>
+          <input
+            type="text"
+            placeholder="Enter Your Name"
+            name="first name"
+            id="first"
+            required
+          />
+        </div>
+        <div>
+          <label for="last">Last Name</label>
+          <input
+            type="text"
+            placeholder="Enter your Last Name"
+            name="last name"
+            id="last"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="Enter your  Email"
+            name="email address"
+            id="email"
+            required
+          />
+        </div>
+        <div>
+          <label for="password">Password</label>
+          <input
+            type="password"
+            placeholder="enter your password"
+            name="account password"
+            id="password"
+            required
+          />
+        </div>
+        <div>
+          <label for="Confirmpass"> Confirm Password</label>
+          <input
+            type="password"
+            placeholder="Confirm Password"
+            name="account password"
+            id="Confirmpass"
+            required
+          />
+        </div>
+        <div>
+          <label for="age">Age</label>
+          <input
+            type="number"
+            placeholder="Enter your Age"
+            name="age of user"
+            id="age"
+            min="18"
+            required
+          />
+        </div>
+        <div>
+          Gender:
+          <label for="Male">Male</label>
+          <input type="radio" name="gender of user" id="Male" required />
+          <label for=" Female"> Female</label>
+          <input type="radio" name="gender of user" id=" Female" required />
+        </div>
+        <div>
+          <input  type="submit" value="Confirm" />
+          <input  type="reset" value="Reset" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

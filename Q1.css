@@ -1,0 +1,27 @@
+html{
+    box-sizing: border-box;
+    
+}
+
+*{
+    box-sizing: inherit;
+}
+.heading{
+    color: rgb(144, 189, 228);
+    background-color: rgb(113, 89, 59);
+    text-align: center;
+}
+.text{
+ background-color:chocolate ;
+ color: aliceblue;
+ 
+}
+.css{
+   background-color: antiquewhite; 
+   color: rgb(144, 189, 228);
+   text-align: center;
+   text-decoration: underline;   
+}
+img{
+    border: 2px solid blue;
+}

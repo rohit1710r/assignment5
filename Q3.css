@@ -1,0 +1,13 @@
+.html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+.form{
+    border: 2px solid red;
+    font-size:xx-large ;
+    background-color: burlywood;
+    color: darkcyan;
+    width: 600px;
+}
